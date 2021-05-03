@@ -1,7 +1,7 @@
 {
   "name": "heb-calendar-with-server",
   "version": "1.0.0",
-  "description": "hebrew calander with server side",
+  "description": "hebrew calender with server side",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
