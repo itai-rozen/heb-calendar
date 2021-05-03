@@ -20,6 +20,7 @@
 <script>
 import ReminderService from './../ReminderService.js'
 import AnnualCheckBoxes from './AnnualCheckBoxes.vue'
+// 
 export default {
 name: 'EditReminder',
 components: { AnnualCheckBoxes },
@@ -147,6 +148,8 @@ font-size: 2em;
 .edit-btn:hover {
     border: 4px solid rgb(0,130,50);
 }
+
+
 
 @media screen and (max-width:830px){
     .edit-modal-container {
