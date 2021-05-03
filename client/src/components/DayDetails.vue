@@ -10,7 +10,7 @@
                     <li class="reminder-list-item"> 
                         <div class="list-item-container">
                             <div class="buttons">
-                        <button @click="openEditModal(reminder._id)">&#128393;</button>
+                        <button @click="openEditModal(reminder._id)">✍</button>
                         <button @click="deleteReminder(reminder._id)">&#x2326;</button>
                             </div>
                         <div class="reminder-time" v-if="reminder.time">{{reminder.time}}</div>
