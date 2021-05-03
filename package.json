@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "postinstall": "npm run build",
+    "build": "vue-cli-service build",
     "dev": "nodemon server/index.js"
   },
   "author": "Itai Rozen",
