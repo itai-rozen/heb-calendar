@@ -4,10 +4,10 @@ module.exports = {
   outputDir: path.resolve(__dirname, '../server/public'),
   devServer:  {
     disableHostCheck: true ,
-    proxy: {
-      '/api':{
-        target: 'http://localhost:5000'
-      }
-    }
+    // proxy: {
+    //   '/api':{
+    //     target: 'http://localhost:5000'
+    //   }
+    // }
   }
 }
